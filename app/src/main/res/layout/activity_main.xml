@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_your_details"
+        android:textSize="24sp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_name"
+        android:layout_marginTop="16dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_age">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_clg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/college_name">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_highest_degree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/highest_degree">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_review_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review_your_details"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" >
+    </Button>
+
+</LinearLayout>

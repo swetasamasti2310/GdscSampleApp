@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GdscSampleApp</string>
+    <string name="add_your_details">Add Your Details</string>
+    <string name="your_age">Your Age</string>
+    <string name="college_name">College Name</string>
+    <string name="highest_degree">Highest Degree</string>
+    <string name="your_name">Your Name</string>
+    <string name="review_your_details">Review Your Details</string>
+    <string name="name">Name: %s</string>
+    <string name="age">Age: %d</string>
+    <string name="college">College: %s</string>
+    <string name="review_highest_degree">Highest Degree: %s</string>
+    <string name="add_student">Add Student</string>
+    <string name="enter_valid_name">Enter Valid Name</string>
+</resources>
